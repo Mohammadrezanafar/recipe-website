@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     // Fetch recipes from the API
-    fetch("https://api.example.com/recipes")
+    fetch("http://localhost:3002/recipes")
       .then((response) => response.json())
       .then((data) => {
         setRecipes(data);
@@ -25,7 +25,7 @@ function App() {
       <div className="recipes-list">
         <ul>
           {recipes.map((recipe) => (
-            <li key={recipe.id}>{recipe.name}</li>
+            <li key={recipe.id}>{recipe.title}</li>
           ))}
         </ul>
       </div>
