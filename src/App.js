@@ -25,7 +25,14 @@ function App() {
       <div className="recipes-list">
         <ul>
           {recipes.map((recipe) => (
-            <li key={recipe.id}>{recipe.title}</li>
+            <li key={recipe.id}>
+              {" "}
+              <div className="recipe-card">
+                <h2>{recipe.title}</h2>
+                <p>Ingredients: {recipe.ingredients.join(", ")}</p>
+                <p>Instructions: {recipe.instructions}</p>
+              </div>
+            </li>
           ))}
         </ul>
       </div>

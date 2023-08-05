@@ -14,11 +14,23 @@ function readRecipesFromFile() {
 }
 
 function writRecipesFromFile() {
-  const data = fs.readFileSync(path.join("Data.json"), "utf8");
-  return JSON.parse(data);
+  data = JSON.stringify(recipes, null, 2);
+  const data = fs.writeFileSync(path.join("Data.json"), "utf8");
 }
+server.post("/recipes", (req, res) => {
+  const recipes = writRecipesFromFile();
+  res.json(recipes);
+});
 server.get("/recipes", (req, res) => {
   const recipes = readRecipesFromFile();
+  res.json(recipes);
+});
+
+server.post("/recipes", (req, res) => {
+  const newRecipe = req.body; // Assuming the recipe data is sent in the request body
+  const recipes = readRecipesFromFile();
+  recipes.push(newRecipe);
+  writRecipesFromFile(recipes);
   res.json(recipes);
 });
 

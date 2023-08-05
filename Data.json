@@ -1,10 +1,337 @@
-[{"id":1,
-"title":"Pasta",
-"ingredients":["a","b","c"],
-"instructions":"jksdhjkshsjkjf"
-},
-{"id":2,
-"title":"Beef",
-"ingredients":["a","b","c"],
-"instructions":"jksdhjkshsjkjf"
-}]
+[
+    {
+      "id": 1,
+      "title": "Creamy Garlic Pasta",
+      "ingredients": [
+        "8 oz fettuccine pasta",
+        "2 tbsp butter",
+        "4 cloves garlic, minced",
+        "1 cup heavy cream",
+        "1 cup grated Parmesan cheese",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": "1. Cook the fettuccine pasta according to package instructions.\n2. In a large skillet, melt the butter over medium heat. Add minced garlic and sauté until fragrant.\n3. Reduce heat to low and stir in heavy cream. Simmer for a few minutes.\n4. Add grated Parmesan cheese and stir until the sauce is smooth and creamy.\n5. Season with salt and pepper to taste.\n6. Toss the cooked pasta with the creamy garlic sauce.\n7. Garnish with fresh parsley and serve."
+    },
+    {
+      "id": 2,
+      "title": "Classic Margherita Pizza",
+      "ingredients": [
+        "1 lb pizza dough",
+        "1/2 cup pizza sauce",
+        "2 cups shredded mozzarella cheese",
+        "1 large tomato, sliced",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "1. Preheat the oven to 475°F (245°C).\n2. Roll out the pizza dough on a floured surface to your desired thickness.\n3. Transfer the rolled-out dough to a pizza stone or baking sheet.\n4. Spread pizza sauce evenly on the dough, leaving a small border around the edges.\n5. Sprinkle shredded mozzarella cheese over the sauce.\n6. Arrange sliced tomatoes on top of the cheese.\n7. Drizzle olive oil over the pizza and season with salt and pepper.\n8. Bake in the preheated oven for 12-15 minutes or until the crust is golden and the cheese is bubbly.\n9. Remove from the oven and top with fresh basil leaves.\n10. Slice and serve hot."
+    },
+    {
+      "id": 3,
+      "title": "Classic Beef Burger",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 egg",
+        "1/4 cup breadcrumbs",
+        "1/4 cup diced onions",
+        "1 tsp garlic powder",
+        "1 tsp Worcestershire sauce",
+        "Salt and pepper to taste",
+        "4 hamburger buns",
+        "Lettuce, tomato, and other toppings of your choice",
+        "Ketchup and mustard for serving"
+      ],
+      "instructions": "1. In a mixing bowl, combine ground beef, egg, breadcrumbs, diced onions, garlic powder, Worcestershire sauce, salt, and pepper.\n2. Mix the ingredients until well combined, but avoid overmixing.\n3. Divide the mixture into four equal portions and shape them into burger patties.\n4. Preheat a grill or stovetop pan over medium-high heat.\n5. Cook the burger patties for about 4-5 minutes per side or until cooked to your desired level of doneness.\n6. Toast the hamburger buns on the grill for a minute.\n7. Assemble the burgers with lettuce, tomato, and other toppings of your choice.\n8. Serve the burgers with ketchup and mustard on the side."
+    },
+    {
+      "id": 4,
+      "title": "Fresh Garden Salad",
+      "ingredients": [
+        "4 cups mixed salad greens (lettuce, spinach, arugula, etc.)",
+        "1 cup cherry tomatoes, halved",
+        "1 cucumber, sliced",
+        "1/2 red onion, thinly sliced",
+        "1/4 cup feta cheese, crumbled",
+        "1/4 cup balsamic vinaigrette dressing",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "1. In a large salad bowl, combine mixed salad greens, cherry tomatoes, cucumber, and red onion.\n2. Sprinkle crumbled feta cheese over the salad.\n3. Drizzle balsamic vinaigrette dressing over the salad.\n4. Toss the salad gently to mix all the ingredients.\n5. Season with salt and pepper to taste.\n6. Serve the fresh garden salad as a side dish or add grilled chicken or shrimp for a complete meal."
+    },
+    {
+      "id": 5,
+      "title": "Chicken Curry",
+      "ingredients": [
+        "1 lb boneless, skinless chicken thighs, cut into chunks",
+        "2 tbsp vegetable oil",
+        "1 large onion, finely chopped",
+        "3 cloves garlic, minced",
+        "1-inch piece of ginger, grated",
+        "2 tbsp curry powder",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp turmeric powder",
+        "1/4 tsp cayenne pepper (optional, adjust to taste)",
+        "1 can (14 oz) coconut milk",
+        "1 cup chicken broth",
+        "2 medium potatoes, peeled and diced",
+        "1 carrot, sliced",
+        "1 red bell pepper, chopped",
+        "Salt and pepper to taste",
+        "Cooked rice for serving"
+      ],
+      "instructions": "1. In a large pot or skillet, heat vegetable oil over medium heat.\n2. Add chopped onion and sauté until softened.\n3. Stir in minced garlic and grated ginger. Cook for another minute.\n4. Add curry powder, ground cumin, ground coriander, turmeric powder, and cayenne pepper (if using). Stir to coat the onions.\n5. Add chicken chunks to the pot and cook until lightly browned on all sides.\n6. Pour in coconut milk and chicken broth. Stir to combine.\n7. Add diced potatoes, sliced carrot, and chopped red bell pepper to the pot.\n8. Bring the curry to a simmer, then cover and cook for about 20 minutes or until the chicken and vegetables are fully cooked.\n9. Season with salt and pepper to taste.\n10. Serve the chicken curry over cooked rice and enjoy!"
+    },
+    {
+      "id": 6,
+      "title": "Spicy Tuna Sushi Roll",
+      "ingredients": [
+        "1 cup sushi rice",
+        "2 tbsp rice vinegar",
+        "1 tbsp sugar",
+        "1/2 tsp salt",
+        "Nori seaweed sheets",
+        "Sushi-grade tuna, sliced",
+        "Avocado, sliced",
+        "Cucumber, sliced",
+        "Spicy mayo (mayonnaise mixed with sriracha sauce)",
+        "Soy sauce and wasabi for serving"
+      ],
+      "instructions": "1. Rinse sushi rice in cold water until the water runs clear. Cook the rice according to package instructions.\n2. In a small bowl, mix rice vinegar, sugar, and salt. Gently heat the mixture until the sugar dissolves.\n3. Spread the cooked rice on a large plate or a wooden sushi mat. Drizzle the vinegar mixture over the rice and gently fold to combine.\n4. Place a sheet of nori on a bamboo sushi rolling mat.\n5. Wet your fingers to prevent the rice from sticking and spread a thin layer of rice evenly on the nori, leaving a small border at the top.\n6. Arrange slices of tuna, avocado, and cucumber in a line across the center of the rice.\n7. Drizzle spicy mayo over the filling ingredients.\n8. Carefully lift the edge of the mat and start rolling the sushi away from you, pressing gently to keep the roll tight.\n9. Once the roll is complete, moisten the top border of the nori with water and press to seal the roll.\n10. Use a sharp knife to slice the sushi roll into bite-sized pieces.\n11. Serve with soy sauce and wasabi for dipping."
+    },
+    {
+      "id": 7,
+      "title": "Fluffy Cheese Omelette",
+      "ingredients": [
+        "3 large eggs",
+        "2 tbsp milk or water",
+        "1/4 cup shredded cheddar cheese",
+        "1/4 cup diced ham",
+        "1/4 cup diced bell peppers",
+        "1/4 cup diced onions",
+        "1/4 cup sliced mushrooms",
+        "Salt and pepper to taste",
+        "2 tbsp butter",
+        "Fresh herbs for garnish (optional)"
+      ],
+      "instructions": "1. In a bowl, whisk together eggs and milk (or water) until well combined.\n2. Stir in shredded cheddar cheese, diced ham, bell peppers, onions, and mushrooms. Season with salt and pepper.\n3. In a non-stick skillet, melt butter over medium heat.\n4. Pour the egg mixture into the skillet and spread it evenly.\n5. Cook the omelette for 2-3 minutes or until the edges are set and slightly golden.\n6. Carefully fold the omelette in half with a spatula.\n7. Cook for another minute or until the center is fully cooked.\n8. Slide the omelette onto a plate, garnish with fresh herbs (if using), and serve hot."
+    },
+    {
+      "id": 8,
+      "title": "Vegetable Fried Rice",
+      "ingredients": [
+        "2 cups cooked rice (preferably day-old rice)",
+        "2 tbsp vegetable oil",
+        "1/2 cup diced carrots",
+        "1/2 cup frozen peas",
+        "1/2 cup diced bell peppers",
+        "1/2 cup chopped green onions",
+        "2 cloves garlic, minced",
+        "2 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1/2 tsp sesame oil",
+        "2 eggs, lightly beaten",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "1. Heat vegetable oil in a large skillet or wok over medium-high heat.\n2. Add diced carrots and cook for a few minutes until slightly softened.\n3. Stir in frozen peas, diced bell peppers, and chopped green onions. Cook for another 2-3 minutes.\n4. Add minced garlic to the skillet and cook until fragrant.\n5. Push the vegetables to one side of the skillet and pour the lightly beaten eggs into the empty space.\n6. Scramble the eggs and mix them with the vegetables.\n7. Add cooked rice to the skillet and stir to combine with the vegetables and eggs.\n8. Pour soy sauce, oyster sauce, and sesame oil over the rice. Stir to evenly coat everything.\n9. Cook for a few more minutes until the rice is heated through and the flavors are well combined.\n10. Season with salt and pepper to taste.\n11. Serve the vegetable fried rice as a delicious side dish or add cooked chicken or shrimp for a complete meal."
+    },
+    {
+      "id": 9,
+      "title": "Cheesy Baked Lasagna",
+      "ingredients": [
+        "8 lasagna noodles, cooked according to package instructions",
+        "2 cups marinara sauce",
+        "1 lb ground beef",
+        "1 small onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 tsp dried basil",
+        "1 tsp dried oregano",
+        "1/2 tsp red pepper flakes (optional)",
+        "Salt and pepper to taste",
+        "1 1/2 cups ricotta cheese",
+        "1 egg",
+        "2 cups shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "Fresh basil leaves for garnish"
+      ],
+      "instructions": "1. Preheat the oven to 375°F (190°C).\n2. In a large skillet, cook the ground beef over medium heat until browned. Drain any excess fat.\n3. Add chopped onions, minced garlic, dried basil, dried oregano, and red pepper flakes (if using) to the skillet. Cook until onions are soft.\n4. Stir in marinara sauce and simmer for a few minutes. Season with salt and pepper to taste.\n5. In a bowl, mix ricotta cheese and an egg until well combined.\n6. In a greased baking dish, layer the ingredients starting with a thin layer of marinara sauce on the bottom.\n7. Place cooked lasagna noodles on top of the sauce.\n8. Spread half of the ricotta cheese mixture over the noodles.\n9. Spoon half of the meat sauce over the ricotta cheese layer.\n10. Sprinkle shredded mozzarella cheese over the sauce.\n11. Repeat the layers with lasagna noodles, ricotta cheese, meat sauce, and mozzarella cheese.\n12. Finish with a layer of lasagna noodles, marinara sauce, shredded mozzarella cheese, and grated Parmesan cheese on top.\n13. Cover the baking dish with foil and bake in the preheated oven for 30 minutes.\n14. Remove the foil and bake for an additional 10-15 minutes or until the cheese is bubbly and golden.\n15. Garnish with fresh basil leaves before serving."
+    },
+    {
+      "id": 10,
+      "title": "Authentic Tacos",
+      "ingredients": [
+        "1 lb ground beef or chicken",
+        "1 packet taco seasoning mix",
+        "1/2 cup water",
+        "8 small corn tortillas",
+        "Shredded lettuce",
+        "Chopped tomatoes",
+        "Chopped onions",
+        "Shredded cheddar cheese",
+        "Salsa",
+        "Sour cream",
+        "Fresh cilantro for garnish",
+        "Lime wedges"
+      ],
+      "instructions": "1. In a skillet, cook ground beef or chicken over medium heat until fully cooked.\n2. Drain any excess fat and stir in the taco seasoning mix and water. Simmer for a few minutes.\n3. Warm corn tortillas on a dry skillet or directly over a gas flame.\n4. Assemble the tacos by adding a spoonful of the meat mixture to each tortilla.\n5. Top with shredded lettuce, chopped tomatoes, onions, shredded cheddar cheese, salsa, and sour cream.\n6. Garnish with fresh cilantro and serve with lime wedges.\n7. Enjoy the delicious and authentic tacos!"
+    },
+    {
+      "id": 11,
+      "title": "Perfectly Grilled Steak",
+      "ingredients": [
+        "2 ribeye steaks or your favorite cut",
+        "2 tbsp olive oil",
+        "2 cloves garlic, minced",
+        "1 tsp dried thyme",
+        "1 tsp dried rosemary",
+        "1 tsp paprika",
+        "Salt and pepper to taste",
+        "Butter for serving",
+        "Grilled vegetables for serving"
+      ],
+      "instructions": "1. Take the steaks out of the refrigerator and let them sit at room temperature for about 30 minutes.\n2. In a small bowl, mix olive oil, minced garlic, dried thyme, dried rosemary, paprika, salt, and pepper to create a marinade.\n3. Rub the marinade over the steaks, making sure they are evenly coated.\n4. Preheat the grill to high heat.\n5. Grill the steaks for about 4-5 minutes per side for medium-rare, or adjust cooking time according to your desired level of doneness.\n6. Once the steaks are cooked, remove them from the grill and let them rest for a few minutes.\n7. Slice the steaks against the grain and serve with a pat of butter on top.\n8. Pair the grilled steaks with your favorite grilled vegetables for a delicious and satisfying meal."
+    },
+    {
+      "id": 12,
+      "title": "California Sushi Roll",
+      "ingredients": [
+        "1 cup sushi rice",
+        "2 tbsp rice vinegar",
+        "1 tbsp sugar",
+        "1/2 tsp salt",
+        "Nori seaweed sheets",
+        "Imitation crab meat",
+        "Avocado, sliced",
+        "Cucumber, sliced",
+        "Cream cheese, sliced",
+        "Soy sauce and wasabi for serving"
+      ],
+      "instructions": "1. Rinse sushi rice in cold water until the water runs clear. Cook the rice according to package instructions.\n2. In a small bowl, mix rice vinegar, sugar, and salt. Gently heat the mixture until the sugar dissolves.\n3. Spread the cooked rice on a large plate or a wooden sushi mat. Drizzle the vinegar mixture over the rice and gently fold to combine.\n4. Place a sheet of nori on a bamboo sushi rolling mat.\n5. Wet your fingers to prevent the rice from sticking and spread a thin layer of rice evenly on the nori, leaving a small border at the top.\n6. Arrange slices of imitation crab meat, avocado, cucumber, and cream cheese in a line across the center of the rice.\n7. Carefully lift the edge of the mat and start rolling the sushi away from you, pressing gently to keep the roll tight.\n8. Once the roll is complete, moisten the top border of the nori with water and press to seal the roll.\n9. Use a sharp knife to slice the sushi roll into bite-sized pieces.\n10. Serve with soy sauce and wasabi for dipping."
+    },
+    {
+      "id": 13,
+      "title": "Fluffy Pancakes",
+      "ingredients": [
+        "1 1/2 cups all-purpose flour",
+        "3 1/2 tsp baking powder",
+        "1 tbsp sugar",
+        "1/4 tsp salt",
+        "1 1/4 cups milk",
+        "1 large egg",
+        "3 tbsp unsalted butter, melted",
+        "1 tsp vanilla extract",
+        "Maple syrup and butter for serving",
+        "Fresh berries for garnish"
+      ],
+      "instructions": "1. In a large bowl, whisk together all-purpose flour, baking powder, sugar, and salt.\n2. In a separate bowl, whisk together milk, egg, melted butter, and vanilla extract.\n3. Pour the wet ingredients into the dry ingredients and stir until just combined.\n4. Let the batter rest for a few minutes to allow the baking powder to activate.\n5. Preheat a non-stick skillet or griddle over medium heat.\n6. Pour about 1/4 cup of pancake batter onto the skillet for each pancake.\n7. Cook the pancakes until bubbles form on the surface, then flip and cook the other side until golden brown.\n8. Serve the fluffy pancakes with maple syrup and butter. Garnish with fresh berries if desired."
+    },
+    {
+      "id": 14,
+      "title": "Crispy Fried Chicken",
+      "ingredients": [
+        "4 bone-in, skin-on chicken pieces (drumsticks and thighs)",
+        "1 cup buttermilk",
+        "1 cup all-purpose flour",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1/2 tsp cayenne pepper",
+        "Salt and pepper to taste",
+        "Vegetable oil for frying"
+      ],
+      "instructions": "1. In a large bowl, soak the chicken pieces in buttermilk. Cover and refrigerate for at least 2 hours, or overnight for best results.\n2. In a shallow dish, mix all-purpose flour, paprika, garlic powder, onion powder, cayenne pepper, salt, and pepper.\n3. Remove the chicken pieces from the buttermilk and let the excess liquid drip off.\n4. Dredge the chicken pieces in the seasoned flour, pressing the flour onto the chicken to ensure it sticks.\n5. In a deep skillet or Dutch oven, heat vegetable oil to 350°F (175°C) over medium heat.\n6. Carefully place the coated chicken pieces into the hot oil.\n7. Fry the chicken for about 12-15 minutes per side or until the skin is crispy and golden brown, and the internal temperature reaches 165°F (74°C).\n8. Remove the fried chicken from the oil and place it on a wire rack to drain excess oil.\n9. Let the fried chicken rest for a few minutes before serving.\n10. Serve the crispy fried chicken with your favorite side dishes."
+    },
+    {
+      "id": 15,
+      "title": "Classic Fish and Chips",
+      "ingredients": [
+        "1 lb white fish fillets (cod, haddock, or pollock)",
+        "1 cup all-purpose flour",
+        "1 tsp baking powder",
+        "1/2 tsp salt",
+        "1/2 tsp black pepper",
+        "1 cup cold sparkling water",
+        "Vegetable oil for frying",
+        "4 large russet potatoes, cut into thick fries",
+        "Salt to taste",
+        "Malt vinegar for serving"
+      ],
+      "instructions": "1. In a large bowl, whisk together all-purpose flour, baking powder, salt, and black pepper.\n2. Gradually add cold sparkling water to the flour mixture, whisking until you get a smooth batter.\n3. Preheat vegetable oil in a deep fryer or a large pot to 350°F (175°C).\n4. Pat the fish fillets dry with paper towels.\n5. Dip each fish fillet into the batter, coating it evenly.\n6. Carefully place the battered fish into the hot oil and fry for about 5-6 minutes or until golden brown and crispy.\n7. Remove the fried fish from the oil and place it on a wire rack to drain excess oil.\n8. In the meantime, fry the cut potatoes in batches until golden and crispy. Drain on paper towels and season with salt.\n9. Serve the crispy fish and chips with malt vinegar for an authentic British experience."
+    },
+    {
+      "id": 16,
+      "title": "Juicy Hamburger",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 egg",
+        "1/4 cup breadcrumbs",
+        "1/4 cup diced onions",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1/2 tsp paprika",
+        "1/2 tsp Worcestershire sauce",
+        "Salt and pepper to taste",
+        "4 hamburger buns",
+        "Lettuce, tomato, and other toppings of your choice",
+        "Ketchup and mustard for serving"
+      ],
+      "instructions": "1. In a mixing bowl, combine ground beef, egg, breadcrumbs, diced onions, garlic powder, onion powder, paprika, Worcestershire sauce, salt, and pepper.\n2. Mix the ingredients until well combined, but avoid overmixing.\n3. Divide the mixture into four equal portions and shape them into burger patties.\n4. Preheat a grill or stovetop pan over medium-high heat.\n5. Cook the burger patties for about 4-5 minutes per side or until cooked to your desired level of doneness.\n6. Toast the hamburger buns on the grill for a minute.\n7. Assemble the burgers with lettuce, tomato, and other toppings of your choice.\n8. Serve the burgers with ketchup and mustard on the side."
+    },
+    {
+      "id": 17,
+      "title": "Fresh Sashimi Platter",
+      "ingredients": [
+        "Assorted sashimi-grade fish (salmon, tuna, yellowtail, etc.)",
+        "Soy sauce",
+        "Wasabi",
+        "Pickled ginger"
+      ],
+      "instructions": "1. Purchase the freshest sashimi-grade fish from a reputable fishmonger or fish market.\n2. Use a sharp knife to slice the fish into thin, bite-sized pieces.\n3. Arrange the sliced fish on a serving platter.\n4. Serve the sashimi with soy sauce, wasabi, and pickled ginger on the side.\n5. Enjoy the delicate flavors of the fresh sashimi!"
+    },
+    {
+      "id": 18,
+      "title": "Grilled Cheese Sandwich",
+      "ingredients": [
+        "4 slices of bread",
+        "2 tbsp unsalted butter, softened",
+        "1 cup shredded cheddar cheese",
+        "1 cup shredded mozzarella cheese",
+        "1/4 cup grated Parmesan cheese"
+      ],
+      "instructions": "1. Preheat a skillet or griddle over medium heat.\n2. Butter one side of each bread slice with softened butter.\n3. Place two slices of bread, buttered side down, on the skillet.\n4. Sprinkle shredded cheddar cheese, shredded mozzarella cheese, and grated Parmesan cheese evenly over the bread slices.\n5. Top with the remaining two slices of bread, buttered side up.\n6. Cook the grilled cheese sandwich for about 3-4 minutes on each side or until the bread is golden and the cheese is melted.\n7. Remove the sandwich from the skillet and let it cool slightly before slicing.\n8. Serve the grilled cheese sandwich with a side of tomato soup for a classic and comforting meal."
+    },
+    {
+      "id": 19,
+      "title": "Hearty Chicken Noodle Soup",
+      "ingredients": [
+        "1 lb boneless, skinless chicken breasts, cooked and shredded",
+        "2 tbsp olive oil",
+        "1 large onion, chopped",
+        "3 carrots, sliced",
+        "3 celery stalks, sliced",
+        "3 cloves garlic, minced",
+        "8 cups chicken broth",
+        "2 cups egg noodles",
+        "1 bay leaf",
+        "1 tsp dried thyme",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": "1. In a large pot, heat olive oil over medium heat.\n2. Add chopped onions, sliced carrots, and sliced celery. Sauté until the vegetables are softened.\n3. Stir in minced garlic and cook until fragrant.\n4. Pour in chicken broth and add the bay leaf and dried thyme.\n5. Bring the broth to a boil and then reduce heat to simmer.\n6. Add egg noodles to the pot and cook until they are tender.\n7. Stir in the shredded chicken and cook until heated through.\n8. Season the chicken noodle soup with salt and pepper to taste.\n9. Garnish with fresh parsley before serving.\n10. Enjoy the comforting and hearty chicken noodle soup."
+    },
+    {
+      "id": 20,
+      "title": "Crispy Fried Shrimp",
+      "ingredients": [
+        "1 lb large shrimp, peeled and deveined",
+        "1 cup all-purpose flour",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1/2 tsp paprika",
+        "Salt and pepper to taste",
+        "2 eggs, beaten",
+        "1 cup breadcrumbs",
+        "Vegetable oil for frying",
+        "Lemon wedges for serving"
+      ],
+      "instructions": "1. In a shallow dish, mix all-purpose flour, garlic powder, onion powder, paprika, salt, and pepper.\n2. Dip each shrimp into "}]  
