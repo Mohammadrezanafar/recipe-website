@@ -1,15 +1,17 @@
 .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15dvh;
+  position: relative;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(74, 93, 109);
+  color:  rgb(40, 55, 67);
+  padding: 10px;
 }
 .nav-bar {
   display: flex;
   overflow: hidden;
   background-color: #726e6e;
   position: fixed;
-  top: 100px;
+  top: 0px;
   width: 100%;
 }
 .nav-bar1 {
@@ -39,6 +41,6 @@ button {
   bottom: 0;
   width: 100%;
   background-color: rgba(130, 125, 128, 0.763);
-  color: white;
+  color: aliceblue;
   text-align: center;
 }

@@ -18,7 +18,7 @@ const Header = () => {
 
       <div className="nav-bar">
         <form className="form">
-          <h2>Recipes</h2>
+          <h1>Recipes</h1>
           <p>Explore delicious recipes and place your order!</p>
         </form>
       </div>
