@@ -28,6 +28,7 @@ function App() {
             <li key={recipe.id}>
               {" "}
               <div className="recipe-card">
+                <img src={recipe.photo} alt={recipe.title} />
                 <h2>{recipe.title}</h2>
                 <p>Ingredients: {recipe.ingredients.join(", ")}</p>
                 <p>Instructions: {recipe.instructions}</p>
