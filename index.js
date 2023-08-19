@@ -14,8 +14,8 @@ function readRecipesFromFile() {
 }
 
 function writRecipesFromFile() {
-  data = JSON.stringify(recipes, null, 2);
-  const data = fs.writeFileSync(path.join("Data.json"), "utf8");
+  const data = JSON.stringify(recipes, null, 2);
+  fs.writeFileSync(path.join("Data.json"), "utf8");
 }
 server.post("/recipes", (req, res) => {
   const recipes = writRecipesFromFile();

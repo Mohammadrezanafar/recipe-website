@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.css"; // Import your CSS file with styles
+import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import ServerSearchBar from "./Components/Server";
@@ -7,7 +7,7 @@ function App() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    // Fetch recipes from the API
+    // Fetch Api recipes
     fetch("http://localhost:3002/recipes")
       .then((response) => response.json())
       .then((data) => {
@@ -26,9 +26,9 @@ function App() {
         <ul>
           {recipes.map((recipe) => (
             <li key={recipe.id}>
-              {" "}
               <div className="recipe-card">
-                <img src={recipe.photo} alt={recipe.title} />
+                {<img src={recipe.photo} alt={recipe.title} />}
+
                 <h2>{recipe.title}</h2>
                 <p>Ingredients: {recipe.ingredients.join(", ")}</p>
                 <p>Instructions: {recipe.instructions}</p>
