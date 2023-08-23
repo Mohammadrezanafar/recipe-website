@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "photo": "",
+    "photo": "https://i.pinimg.com/474x/90/71/70/9071707c24859793224d7ea5836b641a.jpg",
     "title": "Creamy Garlic Pasta",
     "ingredients": [
       "8 oz fettuccine pasta",
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "photo": "",
+    "photo": "https://th.bing.com/th/id/OIP.TVcMav85PGPzog4uNxHwgQHaIh?pid=ImgDet&rs=1",
     "title": "Classic Margherita Pizza",
     "ingredients": [
       "1 lb pizza dough",
@@ -31,7 +31,7 @@
   },
   {
     "id": 3,
-    "photo": "",
+    "photo": "https://parc-eol.fr/wp-content/uploads/2021/05/brasserie-des-eol-saint-vulbas.jpg",
     "title": "Classic Beef Burger",
     "ingredients": [
       "1 lb ground beef",
@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "photo": "",
+    "photo": "https://img.leafcdn.tv/640/clsd/getty/da7e7a1980634eb49dee428475075051",
     "title": "Fresh Garden Salad",
     "ingredients": [
       "4 cups mixed salad greens (lettuce, spinach, arugula, etc.)",
@@ -64,7 +64,7 @@
   },
   {
     "id": 5,
-    "photo": "",
+    "photo": "https://www.spiceroots.com/spiceroots/wp-content/uploads/2020/05/chicken-tikka-masala-1-of-1-2.jpg",
     "title": "Chicken Curry",
     "ingredients": [
       "1 lb boneless, skinless chicken thighs, cut into chunks",
@@ -89,7 +89,7 @@
   },
   {
     "id": 6,
-    "photo": "",
+    "photo": "https://i.pinimg.com/originals/97/b9/d0/97b9d04b6aad38ad8a8104c77c85f007.jpg",
     "title": "Spicy Tuna Sushi Roll",
     "ingredients": [
       "1 cup sushi rice",
@@ -107,7 +107,7 @@
   },
   {
     "id": 7,
-    "photo": "../../public/ApiPhotoes/istockphoto-1203038748-2048x2048.jpg",
+    "photo": "https://i.pinimg.com/originals/3f/6a/63/3f6a633f61bc191e2bf7d9d362459d0e.jpg",
     "title": "Fluffy Cheese Omelette",
     "ingredients": [
       "3 large eggs",
@@ -125,7 +125,7 @@
   },
   {
     "id": 8,
-    "photo": "",
+    "photo": "https://i.pinimg.com/originals/07/7c/94/077c94d2353ec51cb6f129cb4c9db7b4.jpg",
     "title": "Vegetable Fried Rice",
     "ingredients": [
       "2 cups cooked rice (preferably day-old rice)",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "photo": "",
+    "photo": "https://716f24d81edeb11608aa-99aa5ccfecf745e7cf976b37d172ce54.ssl.cf1.rackcdn.com/5-ingredient-no-boil-baked-2235111l1.jpg",
     "title": "Cheesy Baked Lasagna",
     "ingredients": [
       "8 lasagna noodles, cooked according to package instructions",
@@ -167,7 +167,7 @@
   },
   {
     "id": 10,
-    "photo": "",
+    "photo": "https://s3-media4.fl.yelpcdn.com/bphoto/8xG7j8_KQBKUSD6HeWDk3Q/348s.jpg",
     "title": "Authentic Tacos",
     "ingredients": [
       "1 lb ground beef or chicken",
@@ -187,7 +187,7 @@
   },
   {
     "id": 11,
-    "photo": "",
+    "photo": "https://i.pinimg.com/originals/b4/6c/e3/b46ce3bb2537acaf5a5f71e829299524.jpg",
     "title": "Perfectly Grilled Steak",
     "ingredients": [
       "2 ribeye steaks or your favorite cut",
@@ -204,7 +204,7 @@
   },
   {
     "id": 12,
-    "photo": "",
+    "photo": "https://www.tasteofhome.com/wp-content/uploads/2018/01/California-Sushi-Rolls_exps142244_THHC2238742B09_21_20bC_RMS.jpg",
     "title": "California Sushi Roll",
     "ingredients": [
       "1 cup sushi rice",
@@ -222,7 +222,7 @@
   },
   {
     "id": 13,
-    "photo": "",
+    "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/119674.jpg",
     "title": "Fluffy Pancakes",
     "ingredients": [
       "1 1/2 cups all-purpose flour",
@@ -240,7 +240,7 @@
   },
   {
     "id": 14,
-    "photo": "",
+    "photo": "https://i.pinimg.com/originals/07/49/b2/0749b2089ded44b9461a3c6f42cf432b.jpg",
     "title": "Crispy Fried Chicken",
     "ingredients": [
       "4 bone-in, skin-on chicken pieces (drumsticks and thighs)",
@@ -257,7 +257,7 @@
   },
   {
     "id": 15,
-    "photo": "",
+    "photo": "https://www.thespruceeats.com/thmb/uALIO4N-VCYA5SXIguM_9sJfEnk=/3606x2352/filters:fill(auto,1)/IMG_5442-58b427d35f9b586046d8dfa1.JPG",
     "title": "Classic Fish and Chips",
     "ingredients": [
       "1 lb white fish fillets (cod, haddock, or pollock)",
@@ -275,7 +275,7 @@
   },
   {
     "id": 16,
-    "photo": "",
+    "photo": "https://i.pinimg.com/originals/8b/c2/a1/8bc2a123066c6fbf1624d205d6ddb238.jpg",
     "title": "Juicy Hamburger",
     "ingredients": [
       "1 lb ground beef",
@@ -295,7 +295,7 @@
   },
   {
     "id": 17,
-    "photo": "",
+    "photo": "https://i.pinimg.com/originals/0e/8a/9f/0e8a9fb71e35b15ffa8acebcee686c7d.jpg",
     "title": "Fresh Sashimi Platter",
     "ingredients": [
       "Assorted sashimi-grade fish (salmon, tuna, yellowtail, etc.)",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "photo": "",
+    "photo": "https://bigoven-res.cloudinary.com/image/upload/grilled-cheese-sandwiches-4.jpg",
     "title": "Grilled Cheese Sandwich",
     "ingredients": [
       "4 slices of bread",
@@ -320,7 +320,7 @@
   },
   {
     "id": 19,
-    "photo": "",
+    "photo": "https://as2.ftcdn.net/v2/jpg/04/72/62/29/1000_F_472622913_00rkwfTqr8kuBjq7Y9glR0yTJlLsrrLG.jpg",
     "title": "Hearty Chicken Noodle Soup",
     "ingredients": [
       "1 lb boneless, skinless chicken breasts, cooked and shredded",
@@ -340,7 +340,7 @@
   },
   {
     "id": 20,
-    "photo": "",
+    "photo": "https://www.marionskitchen.com/wp-content/uploads/2018/12/Coconut-shirmp-25-2-585x585.jpg",
     "title": "Crispy Fried Shrimp",
     "ingredients": [
       "1 lb large shrimp, peeled and deveined",

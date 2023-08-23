@@ -27,8 +27,7 @@ function App() {
           {recipes.map((recipe) => (
             <li key={recipe.id}>
               <div className="recipe-card">
-                {<img src={recipe.photo} alt={recipe.title} />}
-
+                <img className="recipe-images" src={recipe.photo} />
                 <h2>{recipe.title}</h2>
                 <p>Ingredients: {recipe.ingredients.join(", ")}</p>
                 <p>Instructions: {recipe.instructions}</p>
