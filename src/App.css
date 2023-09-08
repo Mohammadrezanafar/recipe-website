@@ -47,7 +47,7 @@ button {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #938e8e;
   color: #333;
 }
 
@@ -58,19 +58,27 @@ body {
   text-align: center;
   margin: auto;
   width: 50%;
-  border: 5px solid #627180;
-  color: #c7d0d8;
-  background-color: #4a5d6d;
+  border: 5px solid #707172;
+  color: #f0f4ed;
   padding: 10px;
+  width: 100%;
+  max-height: 100%;
+  background-image:url(https://thumbs.dreamstime.com/z/wooden-table-food-top-view-cafe-102532611.jpg);
 }
 
 /* Navigation bar styles */
 .nav-bar {
-  display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #2d3a44;
-  color: #ffffff;
+  color: #fbf9f9;
+  background-position:center;
+  background-color: #575555;
+  object-fit:cover;
+  font-size: 2dvw;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Navigation links styles */
@@ -117,6 +125,13 @@ input {
   object-fit: cover;
   width: 50%;
   height: 50vh;
+}
+.info-users{
+  display: flex;
+  color: #fff;
+  padding:10px;
+  margin:5px;
+  
 }
 
 /* Button styles */
