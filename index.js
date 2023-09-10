@@ -17,15 +17,24 @@ function writRecipesFromFile() {
   const data = JSON.stringify(recipes, null, 2);
   fs.writeFileSync(path.join("Data.json"), "utf8");
 }
-server.post("/recipes", (req, res) => {
-  const recipes = writRecipesFromFile();
-  res.json(recipes);
-});
+// server.post("/recipes", (req, res) => {
+//   const recipes = writRecipesFromFile();
+//   res.json(recipes);
+// });
 server.get("/recipes", (req, res) => {
   const recipes = readRecipesFromFile();
   res.json(recipes);
 });
 
+server.post("/submit", (req, res) => {
+  try {
+    const newSubmit = req.body;
+    fs.writeFileSync("user.json".JSON.stringify(newSubmit, null, 2));
+    res.status(200).json({ message: "Data save successfully" });
+  } catch (error) {
+    res.status(500).json({ error: "Data has error" });
+  }
+});
 server.post("/recipes", (req, res) => {
   const newRecipe = req.body; // Assuming the recipe data is sent in the request body
   const recipes = readRecipesFromFile();

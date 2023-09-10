@@ -133,6 +133,13 @@ input {
   margin:5px;
   
 }
+.label{
+  margin-left: 5px;
+}
+ .input{
+  margin-left: 5px;
+ }
+
 
 /* Button styles */
 button {
