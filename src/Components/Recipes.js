@@ -9,21 +9,32 @@ function Form() {
     e.preventDefault();
     console.log(`Name: ${name}, Age: ${age}, Surname: ${surname}`);
   };
-  const formData = { name, age, surname };
-  fetch("/submit", {
+  const formData = {
+    name: name,
+    age: age,
+    surname: surname,
+  };
+
+  fetch("http://localhost:3002/submit", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(formData),
   })
-    .then((response) => response.json())
-    .then((data) => setMessage(data.message))
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok!");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      setMessage("");
+    })
     .catch((error) => {
-      console.error("Error:", error);
-      setMessage("An error occurred.");
+      console.error("Error", error);
+      setMessage("An error occurred!");
     });
-
   return (
     <div className="info-users">
       <form onSubmit={handleSubmit}>
@@ -59,6 +70,7 @@ function Form() {
         </label>
         <button type="submit">Submit</button>
       </form>
+      {message && <p>{message}</p>}
     </div>
   );
 }

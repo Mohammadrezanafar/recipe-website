@@ -6,6 +6,7 @@ const PORT = 3002;
 const fs = require("fs");
 const bodyParser = require("body-parser");
 const path = require("path");
+
 server.use(bodyParser.json());
 
 function readRecipesFromFile() {
@@ -17,10 +18,7 @@ function writRecipesFromFile() {
   const data = JSON.stringify(recipes, null, 2);
   fs.writeFileSync(path.join("Data.json"), "utf8");
 }
-// server.post("/recipes", (req, res) => {
-//   const recipes = writRecipesFromFile();
-//   res.json(recipes);
-// });
+
 server.get("/recipes", (req, res) => {
   const recipes = readRecipesFromFile();
   res.json(recipes);
@@ -29,19 +27,27 @@ server.get("/recipes", (req, res) => {
 server.post("/submit", (req, res) => {
   try {
     const newSubmit = req.body;
-    fs.writeFileSync("user.json".JSON.stringify(newSubmit, null, 2));
-    res.status(200).json({ message: "Data save successfully" });
+    let existingData = [];
+    if (fs.existsSync("user.json")) {
+      const userData = fs.readFileSync(path.join("user.json"), "utf-8");
+      existingData = JSON.parse(userData);
+    }
+    existingData.push(newSubmit);
+    fs.writeFileSync("user.json", JSON.stringify(existingData, null, 2));
+    res.status(200).json({ message: "Data submitted!" });
   } catch (error) {
-    res.status(500).json({ error: "Data has error" });
+    console.error("Error", error);
+    res.status(500).json({ error: "error" });
   }
 });
-server.post("/recipes", (req, res) => {
-  const newRecipe = req.body; // Assuming the recipe data is sent in the request body
-  const recipes = readRecipesFromFile();
-  recipes.push(newRecipe);
-  writRecipesFromFile(recipes);
-  res.json(recipes);
-});
+// server.post("/recipes", (req, res) => {
+//   const newRecipe = req.body; // Assuming the recipe data is sent in the request body
+//   const recipes = readRecipesFromFile();
+
+//   writRecipesFromFile(recipes);
+//   recipes.push(newRecipe);
+//   res.json(recipes);
+// });
 
 server.listen(PORT, (err) => {
   if (err) console.error(err);
